@@ -8,11 +8,13 @@ export default function Leadership() {
 
         <div className="mb-8">
           <p className="font-primary text-base md:text-lg text-dark text-center lg:text-left">
-            Enssy Enterprises is anchored in strong governance, ethical
-            leadership, and community-centered development. The organization’s
-            identity, values, and long-term vision are rooted in the founding
-            leadership of Agnes Nessy Akinyi Otieno, whose principles continue
-            to guide strategic direction and institutional culture.
+            Winklink Water Solutions Ltd is built on engineering expertise,
+            innovation, and a commitment to delivering quality water solutions.
+            The company&apos;s foundation, values, and long-term vision are
+            rooted in the entrepreneurial journey and leadership of its founder,
+            Eng. Charles Munala, whose dedication and technical experience
+            continue to drive the company&apos;s growth, operations, and
+            commitment to improving access to reliable water solutions.
           </p>
         </div>
         <div className="space-y-2 md:space-y-4">
@@ -27,31 +29,25 @@ export default function Leadership() {
             <div className="text-center lg:text-left max-w-3xl">
               <div className="border-b-2 border-orange-custom inline-block pb-1 mb-4">
                 <h3 className="text-xl font-primary font-semibold text-dark">
-                  Jack Okomo
+                  Eng. Charles Munala
                 </h3>
                 <h4 className="font-primary font-semibold text-dark">
                   CEO & Founder
                 </h4>
               </div>
               <p className="text-dark font-primary leading-relaxed text-[15px] md:text-base">
-                Jack Okomo is the Founder and Project Lead of Enssy Enterprises.
-                He is an experienced agribusiness consultant and community
-                development practitioner with expertise in climate-smart
-                agriculture, agroecology, and food systems transformation. He
-                has led initiatives in climate-resilient farming, ecosystem
-                restoration, waste valorization (BSF technology), and indigenous
-                knowledge integration, while also contributing to regional and
-                national food policy dialogues. Jack previously contributed to
-                the 2013 UNIDO green technology study (
-                <a
-                  href="https://www.unido.org/sites/default/files/2015-10/EE_africa_0.pdf"
-                  target="_blank"
-                  className="text-orange-custom italic underline"
-                >
-                  please also see
-                </a>
-                ) and continues to champion community-driven solutions for
-                resilience, peace, and sustainable development.
+                Eng. Charles Munala is the Founder and Chief Executive Officer
+                of Winklink Water Solutions Ltd. He is a General Engineer with
+                experience in water treatment equipment supply, fabrication,
+                manufacturing, and installation. His entrepreneurial journey
+                began with supplying water treatment equipment, which gradually
+                grew into the fabrication and assembly of complete water
+                treatment machines. Through his engineering expertise, hands-on
+                experience, and commitment to quality, he has helped establish
+                Winklink as a company providing water equipment and solutions
+                across Kenya. His vision continues to drive the company&apos;s
+                growth and its commitment to improving access to reliable water
+                solutions.
               </p>
             </div>
           </div>
