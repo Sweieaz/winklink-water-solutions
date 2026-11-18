@@ -1,18 +1,60 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: "Nunito";
+  src: url("/src/assets/fonts/Nunito-Regular.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "NunitoAlt1";
+  src: url("/src/assets/fonts/Nunito-Light.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  src: url("/src/assets/fonts/Ubuntu-Regular.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "UbuntuAlt1";
+  src: url("/src/assets/fonts/Ubuntu-Light.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
 }
 
 @theme inline {
-  --color-primary: #0ea5e9; /* sky blue */
-  --color-secondary: #0284c7; /* deep blue */
-  --color-accent: #22d3ee; /* aqua */
+  --color-primary: #50a7d2; /* water blue */
+  --color-secondary: #075f83; /* deep ocean blue */
+  --color-accent: #0c77a7; /* ocean blue */
+  --color-secondary-accent: #063042; /* dark navy */
   --color-dark: #0f172a;
   --color-light: #f8fafc;
+  --font-primary: "Nunito", sans-serif;
+  --font-primary1: "NunitoAlt1", sans-serif;
+  --font-secondary: "Ubuntu", sans-serif;
+  --font-secondary1: "UbuntuAlt1", sans-serif;
 }
 
 html {
   scroll-behavior: smooth;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
 }

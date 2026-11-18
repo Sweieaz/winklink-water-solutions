@@ -2,7 +2,7 @@ export default function Hero() {
   return (
     <section id="home" className="bg-primary text-white py-24 text-center">
       <h1 className="text-4xl md:text-5xl font-bold">
-        WinkLink Water Solutions
+        WinkLink Water Solutions LTD
       </h1>
 
       <p className="mt-6 text-lg max-w-2xl mx-auto">
@@ -11,7 +11,7 @@ export default function Hero() {
       </p>
 
       <button className="mt-8 bg-white text-primary px-6 py-3 rounded-lg font-semibold">
-        Get a Quote
+        Request a Quote
       </button>
     </section>
   );
